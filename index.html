@@ -1,19 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="bounce.js" type="module"></script>
-    <title>Screen Bouncer</title>
+<title>Pong</title>
+<style>
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  velocityX: 5;
+  velocityY: 5;
+}
+
+.paddle {
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+</style>
 </head>
 <body>
-        <div class="score">
-            <div id="player-score">0</div>
-            <div id="computer-score">0</div>
-        </div>
-        <div class="ball" id="ball"></div>
-        <div class="paddle left" id="player-paddle"></div>
-        <div class="paddle right" id="computer-paddle"></div>
+<div class="container">
+  <div class="ball"></div>
+  <div class="paddle"></div>
+</div>
+<script>
+var ball = document.querySelector(".ball");
+var paddle = document.querySelector(".paddle");
+
+function moveBall() {
+  ball.style.top = ball.offsetTop + ball.velocityY + "px";
+  ball.style.left = ball.offsetLeft + ball.velocityX + "px";
+
+  if (ball.offsetTop < 0 || ball.offsetTop + ball.height > document.body.height) {
+    ball.velocityY = -ball.velocityY;
+  }
+
+  if (ball.offsetLeft < 0 || ball.offsetLeft + ball.width > document.body.width) {
+    ball.velocityX = -ball.velocityX;
+  }
+}
+
+setInterval(moveBall, 10);
+</script>
 </body>
 </html>
