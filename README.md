@@ -7,7 +7,7 @@ Oh, don't forget to enjoy.
 
 <h2>Deployment</h2>
 
-To deploy the game, and play it on a [website](lesliecodes1.github.io/screen-bouncer/) near you, just follow the quick steps below: <br>
+To deploy the game, and play it on a [website](lesliecodes1.github.io/screen-bouncer/ "website") near you, just follow the quick steps below: <br>
 * Git clone the above project to your machine by entering the following command to your terminal:
     * `git clone https://github.com/lesliecodes1/screen-bouncer.git`
         * The purpose of this step is only so you can make your own modifications to the game, making it harder or easier by conguring the Computer Paddle AI.
@@ -17,7 +17,7 @@ To deploy the game, and play it on a [website](lesliecodes1.github.io/screen-bou
 * Your site would now be ready and live at the specified URL by github. 
 * Click and bounce away on your screen. <br>
 
-<h3>License</h3>
+<h2>License</h2>
 Luckily, you dont need a licence to have fun in these parts of the internet. <br>
 
 ***HAVE FUN***
