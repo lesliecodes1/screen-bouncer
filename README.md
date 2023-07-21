@@ -18,5 +18,6 @@ To deploy the game, and play it on a [website](lesliecodes1.github.io/screen-bou
 * Click and bounce away on your screen. <br>
 
 <h3>License</h3>
-Luckily, you dont need a licence to have fun in these parts of the internet.
-**HAVE FUN**
+Luckily, you dont need a licence to have fun in these parts of the internet. <br>
+
+***HAVE FUN***
