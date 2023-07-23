@@ -7,14 +7,15 @@ Oh, don't forget to enjoy.
 
 <h2>Deployment</h2>
 
-To deploy the game, and play it on a [website](lesliecodes1.github.io/screen-bouncer/ "website") near you, just follow the quick steps below: <br>
+To deploy the game, and play it on a [website](lesliecodes1.github.io/screen-bouncer/) near you, just follow the quick steps below: <br>
+
 * Git clone the above project to your machine by entering the following command to your terminal:
-    * `git clone https://github.com/lesliecodes1/screen-bouncer.git`
-        * The purpose of this step is only so you can make your own modifications to the game, making it harder or easier by conguring the Computer Paddle AI.
-* When ready to deploy, head on to the Settings tab on your github repo. 
+  * `git clone https://github.com/lesliecodes1/screen-bouncer.git`
+    * The purpose of this step is only so you can make your own modifications to the game, making it harder or easier by conguring the Computer Paddle AI.
+* When ready to deploy, head on to the Settings tab on your github repo.
 * Navigate to Pages, on the `Code and Automation` section.
 * Under `Build and Deployment`, under `Branch`, select the publishing source. In my case, this would be the main branch.
-* Your site would now be ready and live at the specified URL by github. 
+* Your site would now be ready and live at the specified URL by github.
 * Click and bounce away on your screen. <br>
 
 <h2>License</h2>
