@@ -7,7 +7,7 @@ Oh, don't forget to enjoy.
 
 <h2>Deployment</h2>
 
-To deploy the game, and play it on a [website](lesliecodes1.github.io/screen-bouncer/) near you, just follow the quick steps below: <br>
+To deploy the game, and play it on a [website](https://lesliecodes1.github.io/screen-bouncer/) near you, just follow the quick steps below: <br>
 
 * Git clone the above project to your machine by entering the following command to your terminal:
   * `git clone https://github.com/lesliecodes1/screen-bouncer.git`
